@@ -1,5 +1,5 @@
 /*
- * compile with: g++ test.cpp -laiousbcpp -lusb-1.0 -o test
+ * compile with: g++ -D__aiousb_cplusplus sample.cpp -I/usr/include/libusb-1.0 -laiousbcpp -lusb-1.0 -o test
  */
 #include <aiousb.h>
 #include <stdio.h>
